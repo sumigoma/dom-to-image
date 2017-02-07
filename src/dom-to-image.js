@@ -58,8 +58,8 @@
         function applyOptions(clone) {
             if (options.bgcolor) clone.style.backgroundColor = options.bgcolor;
 
-            if (options.width) clone.style.width = options.width + 'px';
-            if (options.height) clone.style.height = options.height + 'px';
+            //if (options.width) clone.style.width = options.width + 'px';
+            //if (options.height) clone.style.height = options.height + 'px';
 
             if (options.style)
                 Object.keys(options.style).forEach(function (property) {
